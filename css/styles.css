@@ -8,17 +8,11 @@
         display: flex;
         justify-content: center;
         text-align: center;
-    }
-
-    img{
-        width: 100px;
-        height: 100px;
-    }   
+    } 
     
     .starters{
         flex-direction: column;
         margin-left: 10px;
-        
     }
 
 }
@@ -70,8 +64,8 @@
     }    
 
     img{
-        width: 340px;
-        height: 400px;
+        width: 260px;
+        height: 300px;
     }
 
 
