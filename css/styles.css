@@ -1,0 +1,78 @@
+@font-face{
+        font-family: 'pokemon';
+        src: url('../fonts/pokemon-font.ttf') format('truetype');
+    }
+
+@media (min-width: 320px) and (max-width: 462px){
+    h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }   
+    
+    .starters{
+        flex-direction: column;
+        margin-left: 10px;
+        
+    }
+
+}
+    p{
+        font-family: 'pokemon';
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    html{
+        background-color: black;
+    }
+
+    h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bulba-button{
+        background-color: black;
+        border: none;
+    }
+
+    #charmander-button{
+        background-color: black;
+        border: none;     
+    }
+
+    #squirtle-button{
+        background-color: black;
+        border: none; 
+    }
+
+    .pokemon-text{
+    font-family: 'pokemon', sans-serif;
+    margin-top: 80px;
+    }
+
+    .starters{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-grow: 4;
+        flex-shrink: 3;   
+        gap: 140px;
+    }    
+
+    img{
+        width: 340px;
+        height: 400px;
+    }
+
+
+
